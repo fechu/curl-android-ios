@@ -1,5 +1,5 @@
 #!/bin/bash
-TARGET=android-9
+TARGET=android-21
 
 real_path() {
   [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
